@@ -113,6 +113,9 @@ h2 {
   width: clamp(180px, 25vw, 320px);
   height: auto;
   border-radius: 12px;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-right: 25px;
   flex-shrink: 0;
 }
 
@@ -331,6 +334,7 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 
 
 

@@ -110,13 +110,12 @@ h2 {
 }
 
 .profile_image {
-  width: 300px;
-  height: fit-content;
-  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin-top: 25px;
   margin-right: 25px;
   border-radius: 5px;
-  overflow: hidden;
 }
 
 /* Skills */
@@ -334,5 +333,6 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 
 

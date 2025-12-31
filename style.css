@@ -94,6 +94,7 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+  gap: 10px
 }
 
 #about-me h1 {
@@ -330,6 +331,7 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 
 
 

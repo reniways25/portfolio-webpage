@@ -31,7 +31,7 @@ body {
   color: white;
   font-weight: bolder;
   text-decoration: underline;
-  /* Add the styles here */
+  
 }
 
 .topdiv {
@@ -42,7 +42,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
+  
 }
 
 .profile_name .contact_info {
@@ -334,4 +334,5 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 

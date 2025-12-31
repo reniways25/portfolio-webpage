@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Olabanji Emmanuel - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Olabanji Emmanuel
+          <div class="contact_info">
+            <img src="envelope.png" alt=""/>
+          emmanuelolabanji878@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="phone.png" alt=""/>
+          +234 916 731 2237
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://camo.githubusercontent.com/79415a2330714aea5d96675cf7c1a697f4521d9755a5a1f1d3ed00863bb9e30f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313237322f312a5a53566d57476363317765454e6230536861775778772e676966" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Olabanji Emmanuel! <img src="waving hand dark skin tone.png" width="60px"/>
+          </h1>
+          <p>
+           Full Stack Developer. Problem Solver. Constant Learner. I’m Olabanji Emmanuel, and I specialize in building end-to-end digital experiences that adapt to an ever-changing world. I’m fueled by curiosity and a commitment to advancing alongside the technologies I use. Let’s build something dynamic together.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html5.png"/>
+          <h6>HTML</h6>
+          <p>3 years experience</p>
+        </div>  
+        
+        <div class="skill">
+            <img src="CSS3.png" alt="">
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+        </div>
+        
+        <div class="skill">
+            <img src="js.jpeg"/>
+            <h6>JavaScript</h6>
+            <p>3 years experience</p>
+        </div>
+       
+        <div class="skill">
+            <img src="react.png" alt="">
+            <h6>React.js</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="node.png" alt="">
+            <h6>Node.js</h6>
+            <p>1 year experience</p>
+        </div>
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Bento Profile card</h3>
+            <ul>
+              <li>Developed a bento profile card front-end UI for an automobile client using HTML and CSS</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>coming soon....</h3>
+            <ul>
+              <li>coming soon....</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>coming soon....</h3>
+            <ul>
+              <li>coming soon....</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jane is a very quick learner and quickly grasps key concepts of Web development. 
+          She got a great attitude & she is an excellent team player. 
+          She has a curious mind and asks the right question. 
+          She takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jane has been an awesome experience. 
+          She is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jane during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>

@@ -96,6 +96,8 @@ h2 {
   display: flex;
   align-items: center;
   gap: 2rem;
+  flex-direction: column;
+  text-align: center;
 }
 
 #about-me h1 {
@@ -332,6 +334,7 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 
 
 

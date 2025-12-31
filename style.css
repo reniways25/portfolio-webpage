@@ -91,14 +91,9 @@ h2 {
 }
 
 /* About Me */
-@media (max-width: 768px){
 .about-me {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  flex-direction: column;
-  text-align: center;
-  padding: 10px;
 }
 
 #about-me h1 {
@@ -119,7 +114,7 @@ h2 {
   border-radius: 12px;
   flex-shrink: 0;
 }
-}
+
 /* Skills */
 
 .all_skills {
@@ -335,6 +330,7 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
 
 
 
